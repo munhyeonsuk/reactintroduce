@@ -1,13 +1,16 @@
-function bby(){
+import Hd from './component/Hd'
+
+function Bby(){
     return(
-        // jsx html태그 아님
+        //jsx html 태그 아님 xml임
+        //1. 최상위 부모 태그는 하나
+        //2. 노드 이름은 마음대로
         <>
-        <p>내인생의 첫 리액트</p>
-        <p>내인생의 첫 리액트</p>
+            <Hd></Hd>
         </>
     )
 }
 
-export default bby;
+export default Bby;
 
 
